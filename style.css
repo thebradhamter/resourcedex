@@ -35,3 +35,24 @@ p #type {
 h5, p {
     color: rgb(129, 129, 129);
 }
+
+#card {
+    width: 192px;
+    height: 266px;
+    cursor: pointer;
+}
+
+/* Card Preview Overlay Styles */
+#card-preview-overlay {
+    /* fallback styles, most are set inline by JS */
+    animation: fadeInBg 0.3s;
+}
+@keyframes fadeInBg {
+    from { background: rgba(0,0,0,0); }
+    to { background: rgba(0,0,0,0.7); }
+}
+
+/* Set Iframe Overlay Styles */
+#set-iframe-overlay {
+    animation: fadeInBg 0.3s;
+}
