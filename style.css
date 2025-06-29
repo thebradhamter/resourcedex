@@ -31,3 +31,7 @@ p #type {
     width: 16px;
     height: 16px;
 }
+
+h2, h5, p {
+    color: rgb(129, 129, 129);
+}
