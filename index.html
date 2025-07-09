@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./icon.png" type="image/png">
-    <link rel="stylesheet" href="./style.css">
-    <title>ResourceDex</title>
-</head>
-<body>
-    <div id="page">
-        <h1><img src="./logo.png" alt="ResourceDex logo" height="246" width="500" id="logo"></h1>
-        <p><a href="https://projectpokemon.org/home/docs/spriteindex_148/switch-sv-style-sprites-for-home-r153/" target="_blank" rel="noopener noreferrer">Evolution Icons</a> (Credit: theSLAYER)</p>
-        <p><a href="./renders/">Renders</a></p>
-        <p><a href="https://drive.google.com/drive/folders/14i6fuhbKFUX6rMhYUptIInpM-49Xjkn7" target="_blank" rel="noopener noreferrer">Quantum Contour</a> (Credit: envoyofhell)</p>
-        <p><a href="./visual_effects/">Visual Effects</a></p>
-        <h1><img src="./pokemontcgcustomsetslogo.png" alt="Pokémon TCG Custom Sets logo" height="246" width="500" id="pokemontcgcustomsetslogo"></h1>
-        <a href="./sets/esoteric_resonance/"><img src="./img/sets/esoteric_resonance/set_banner.png" alt="Esoteric Resonance Banner" width="390" height="178"></a>
-        <a href="./sets/forte_arrivals/"><img src="./img/sets/forte_arrivals/set_banner.png" alt="Forte Arrivals Banner" width="312" height="178" style="border-radius: 5%;"></a>
-        <a href="./sets/miraculous_wish/"><img src="./img/sets/miraculous_wish/set_banner.png" alt="Miraculous Wish Banner" width="312" height="178"></a>
-        <a href="./sets/pechaden_base_set/"><img src="./img/sets/pechaden_base_set/set_banner.png" alt="PechaDen - Base Set Banner" width="275" height="178" style="border-radius: 5%;"></a>
-        <a href="./sets/pechaden_base_set_etb/"><img src="./img/sets/pechaden_base_set_etb/set_banner.png" alt="PechaDen - Base Set ETB Banner" width="275" height="178" style="border-radius: 5%;"></a>
-        <a href="./sets/pechaden_core_trainer_box/"><img src="./img/sets/pechaden_core_trainer_box/set_banner.png" alt="PechaDen - Core Trainer Box Banner" width="250" height="178" style="border-radius: 5%;"></a>
-        <h5>Join the <a href="https://discord.gg/9w3CHZkENf" target="_blank" rel="noopener noreferrer">Pokécardmaker.net</a> Discord server for more resources.</h5>
-    </div>
-    <script src="./index.js"></script>
-</body>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="./static/style.css">
+        <link rel="shortcut icon" href="./img/icon.png" type="image/png">
+        <title>ResourceDex</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ResourceDex</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../games/">Games</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid text-center mt-3">
+            <h1><img src="./img/logo.png" alt="ResourceDex logo" height="246" width="500" id="logo"></h1>
+            <p><a href="https://projectpokemon.org/home/docs/spriteindex_148/switch-sv-style-sprites-for-home-r153/" target="_blank" rel="noopener noreferrer">Evolution Icons</a> (Credit: theSLAYER)</p>
+            <p><a href="./renders/">Renders</a></p>
+            <p><a href="https://drive.google.com/drive/folders/14i6fuhbKFUX6rMhYUptIInpM-49Xjkn7" target="_blank" rel="noopener noreferrer">Quantum Contour</a> (Credit: envoyofhell)</p>
+            <p><a href="./visual_effects/">Visual Effects</a></p>
+            <h1><img src="./img/pokemontcgcustomsetslogo.png" alt="Pokémon TCG Custom Sets logo" height="246" width="500" id="pokemontcgcustomsetslogo"></h1>
+            <a href="./sets/esoteric_resonance/"><img src="./img/sets/esoteric_resonance/set_banner.png" alt="Esoteric Resonance Banner" width="390" height="178"></a>
+            <a href="./sets/forte_arrivals/"><img src="./img/sets/forte_arrivals/set_banner.png" alt="Forte Arrivals Banner" width="312" height="178" style="border-radius: 5%;"></a>
+            <a href="./sets/miraculous_wish/"><img src="./img/sets/miraculous_wish/set_banner.png" alt="Miraculous Wish Banner" width="312" height="178"></a>
+            <a href="./sets/pechaden_base_set/"><img src="./img/sets/pechaden_base_set/set_banner.png" alt="PechaDen - Base Set Banner" width="275" height="178" style="border-radius: 5%;"></a>
+            <a href="./sets/pechaden_base_set_etb/"><img src="./img/sets/pechaden_base_set_etb/set_banner.png" alt="PechaDen - Base Set ETB Banner" width="275" height="178" style="border-radius: 5%;"></a>
+            <a href="./sets/pechaden_core_trainer_box/"><img src="./img/sets/pechaden_core_trainer_box/set_banner.png" alt="PechaDen - Core Trainer Box Banner" width="250" height="178" style="border-radius: 5%;"></a>
+            <h5>Join the <a href="https://discord.gg/9w3CHZkENf" target="_blank" rel="noopener noreferrer">Pokécardmaker.net</a> Discord server for more resources.</h5>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script src="./static/index.js"></script>
+    </body>
 </html>
